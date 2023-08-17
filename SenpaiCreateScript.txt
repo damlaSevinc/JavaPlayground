@@ -1,0 +1,239 @@
+
+EMEA1+A200238388@RDDE03X5 MINGW64 /
+$ cd ~
+
+EMEA1+A200238388@RDDE03X5 MINGW64 ~
+$ cd JavaProjects/
+
+EMEA1+A200238388@RDDE03X5 MINGW64 ~/JavaProjects
+$ mkdir Quests
+
+EMEA1+A200238388@RDDE03X5 MINGW64 ~/JavaProjects
+$ cd Quests/
+
+EMEA1+A200238388@RDDE03X5 MINGW64 ~/JavaProjects/Quests
+$ mkdir Java01-TheJDK
+
+EMEA1+A200238388@RDDE03X5 MINGW64 ~/JavaProjects/Quests
+$ cd Java01-TheJDK/
+
+EMEA1+A200238388@RDDE03X5 MINGW64 ~/JavaProjects/Quests/Java01-TheJDK
+$ mkdir NoticeMe
+
+EMEA1+A200238388@RDDE03X5 MINGW64 ~/JavaProjects/Quests/Java01-TheJDK
+$ touch Senpai.java
+
+EMEA1+A200238388@RDDE03X5 MINGW64 ~/JavaProjects/Quests/Java01-TheJDK
+$ rm Senpai.java
+
+EMEA1+A200238388@RDDE03X5 MINGW64 ~/JavaProjects/Quests/Java01-TheJDK
+$ cd ,,
+bash: cd: ,,: No such file or directory
+
+EMEA1+A200238388@RDDE03X5 MINGW64 ~/JavaProjects/Quests/Java01-TheJDK
+$ cd ..
+
+EMEA1+A200238388@RDDE03X5 MINGW64 ~/JavaProjects/Quests
+$ cd Java01-TheJDK/NoticeMe/
+
+EMEA1+A200238388@RDDE03X5 MINGW64 ~/JavaProjects/Quests/Java01-TheJDK/NoticeMe
+$ touch Senpai.java
+
+EMEA1+A200238388@RDDE03X5 MINGW64 ~/JavaProjects/Quests/Java01-TheJDK/NoticeMe
+$
+
+EMEA1+A200238388@RDDE03X5 MINGW64 ~/JavaProjects/Quests/Java01-TheJDK/NoticeMe
+$
+
+EMEA1+A200238388@RDDE03X5 MINGW64 ~/JavaProjects/Quests/Java01-TheJDK/NoticeMe
+$
+
+EMEA1+A200238388@RDDE03X5 MINGW64 ~/JavaProjects/Quests/Java01-TheJDK/NoticeMe
+$ javac Senpai.java
+Senpai.java:1: error: '{' expected
+class Senpai;
+            ^
+Senpai.java:3: error: class, interface, enum, or record expected
+public static void main(String[]args){
+              ^
+2 errors
+
+EMEA1+A200238388@RDDE03X5 MINGW64 ~/JavaProjects/Quests/Java01-TheJDK/NoticeMe
+$ javac Senpai.java
+Senpai.java:4: error: ';' expected
+        System.out.println("Notice Me Senpai")
+                                              ^
+1 error
+
+EMEA1+A200238388@RDDE03X5 MINGW64 ~/JavaProjects/Quests/Java01-TheJDK/NoticeMe
+$ javac Senpai.java
+
+EMEA1+A200238388@RDDE03X5 MINGW64 ~/JavaProjects/Quests/Java01-TheJDK/NoticeMe
+$ javac Senpai.java
+
+EMEA1+A200238388@RDDE03X5 MINGW64 ~/JavaProjects/Quests/Java01-TheJDK/NoticeMe
+$ ls
+Senpai.class  Senpai.java
+
+EMEA1+A200238388@RDDE03X5 MINGW64 ~/JavaProjects/Quests/Java01-TheJDK/NoticeMe
+$ javac Senpai.java
+
+EMEA1+A200238388@RDDE03X5 MINGW64 ~/JavaProjects/Quests/Java01-TheJDK/NoticeMe
+$ java Senpai
+Notice Me Senpai
+
+
+EMEA1+A200238388@RDDE03X5 MINGW64 ~/JavaProjects/Quests/Java01-TheJDK/NoticeMe
+$ git init
+Initialized empty Git repository in C:/Users/A200238388/JavaProjects/Quests/Java01-TheDK/NoticeMe/.git/
+
+EMEA1+A200238388@RDDE03X5 MINGW64 ~/JavaProjects/Quests/Java01-TheJDK/NoticeMe (master
+$ git add .
+
+EMEA1+A200238388@RDDE03X5 MINGW64 ~/JavaProjects/Quests/Java01-TheJDK/NoticeMe (master
+$ git commit -m "Class created"
+[master (root-commit) 894836a] Class created
+ 6 files changed, 32 insertions(+)
+ create mode 100644 .idea/.gitignore
+ create mode 100644 .idea/NoticeMe.iml
+ create mode 100644 .idea/misc.xml
+ create mode 100644 .idea/modules.xml
+ create mode 100644 Senpai.class
+ create mode 100644 Senpai.java
+
+EMEA1+A200238388@RDDE03X5 MINGW64 ~/JavaProjects/Quests/Java01-TheJDK/NoticeMe (master
+$ git push https://github.com/damlaSevinc/JavaPlayground.git
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream https://github.com/damlaSevinc/JavaPlayground.git master
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+EMEA1+A200238388@RDDE03X5 MINGW64 ~/JavaProjects/Quests/Java01-TheJDK/NoticeMe (master
+$ git push --set-upstream https://github.com/damlaSevinc/JavaPlayground.git
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream https://github.com/damlaSevinc/JavaPlayground.git master
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+EMEA1+A200238388@RDDE03X5 MINGW64 ~/JavaProjects/Quests/Java01-TheJDK/NoticeMe (master
+$ git push origin https://github.com/damlaSevinc/JavaPlayground.git
+fatal: invalid refspec 'https://github.com/damlaSevinc/JavaPlayground.git'
+
+EMEA1+A200238388@RDDE03X5 MINGW64 ~/JavaProjects/Quests/Java01-TheJDK/NoticeMe (master
+$ ^C
+
+EMEA1+A200238388@RDDE03X5 MINGW64 ~/JavaProjects/Quests/Java01-TheJDK/NoticeMe (master
+$ git push -u origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+EMEA1+A200238388@RDDE03X5 MINGW64 ~/JavaProjects/Quests/Java01-TheJDK/NoticeMe (master
+$ git push -u origin master https://github.com/damlaSevinc/JavaPlayground.git
+fatal: invalid refspec 'https://github.com/damlaSevinc/JavaPlayground.git'
+
+EMEA1+A200238388@RDDE03X5 MINGW64 ~/JavaProjects/Quests/Java01-TheJDK/NoticeMe (master
+$ git remote -v
+
+EMEA1+A200238388@RDDE03X5 MINGW64 ~/JavaProjects/Quests/Java01-TheJDK/NoticeMe (master
+$ git push https://github.com/damlaSevinc/JavaPlayground.git main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/damlaSevinc/JavaPlayground.git'
+
+EMEA1+A200238388@RDDE03X5 MINGW64 ~/JavaProjects/Quests/Java01-TheJDK/NoticeMe (master
+$ git push https://github.com/damlaSevinc/JavaPlayground.git
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream https://github.com/damlaSevinc/JavaPlayground.git master
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+EMEA1+A200238388@RDDE03X5 MINGW64 ~/JavaProjects/Quests/Java01-TheJDK/NoticeMe (master
+$ git push --set-upstream https://github.com/damlaSevinc/JavaPlayground.git master
+fatal: unable to access 'https://github.com/damlaSevinc/JavaPlayground.git/': Unsuppored proxy syntax in 'sia-lb.telekom.de:8080"'
+
+EMEA1+A200238388@RDDE03X5 MINGW64 ~/JavaProjects/Quests/Java01-TheJDK/NoticeMe (master
+$ npm config set proxy http://sia-lb.telekom.de:8080
+
+EMEA1+A200238388@RDDE03X5 MINGW64 ~/JavaProjects/Quests/Java01-TheJDK/NoticeMe (master
+$ git push --set-upstream https://github.com/damlaSevinc/JavaPlayground.git master
+fatal: unable to access 'https://github.com/damlaSevinc/JavaPlayground.git/': Unsuppored proxy syntax in 'sia-lb.telekom.de:8080"'
+
+EMEA1+A200238388@RDDE03X5 MINGW64 ~/JavaProjects/Quests/Java01-TheJDK/NoticeMe (master
+$ git config --global user.name "sevincdamla@gmail.com"
+
+EMEA1+A200238388@RDDE03X5 MINGW64 ~/JavaProjects/Quests/Java01-TheJDK/NoticeMe (master)
+$ git remote -v
+
+EMEA1+A200238388@RDDE03X5 MINGW64 ~/JavaProjects/Quests/Java01-TheJDK/NoticeMe (master)
+$ npm config set proxy http://sia-lb.telekom.de:8080
+
+EMEA1+A200238388@RDDE03X5 MINGW64 ~/JavaProjects/Quests/Java01-TheJDK/NoticeMe (master)
+$ git push --set-upstream https://github.com/damlaSevinc/JavaPlayground.git master
+fatal: unable to access 'https://github.com/damlaSevinc/JavaPlayground.git/': Unsupported proxy syntax in 'sia-lb.telekom.de:8080"'
+
+EMEA1+A200238388@RDDE03X5 MINGW64 ~/JavaProjects/Quests/Java01-TheJDK/NoticeMe (master)
+$
+
+
+EMEA1+A200238388@RDDE03X5 MINGW64 /
+$ git config --global http.proxy
+
+EMEA1+A200238388@RDDE03X5 MINGW64 /
+$ cd ~
+
+EMEA1+A200238388@RDDE03X5 MINGW64 ~
+$ cd JavaProjects/Quests/
+
+EMEA1+A200238388@RDDE03X5 MINGW64 ~/JavaProjects/Quests
+$ ls
+Java01-TheJDK/
+
+EMEA1+A200238388@RDDE03X5 MINGW64 ~/JavaProjects/Quests
+$ cd Java01-TheJDK/NoticeMe/
+
+EMEA1+A200238388@RDDE03X5 MINGW64 ~/JavaProjects/Quests/Java01-TheJDK/NoticeMe (master)
+$ git config --global http.proxy
+
+EMEA1+A200238388@RDDE03X5 MINGW64 ~/JavaProjects/Quests/Java01-TheJDK/NoticeMe (master)
+$ git config --global http.https://sia-lb.telekom.de:8080
+error: invalid key: http.https://sia-lb.telekom.de:8080
+
+EMEA1+A200238388@RDDE03X5 MINGW64 ~/JavaProjects/Quests/Java01-TheJDK/NoticeMe (master)
+$ git config --global http://sia-lb.telekom.de:8080
+error: invalid key: http://sia-lb.telekom.de:8080
+
+EMEA1+A200238388@RDDE03X5 MINGW64 ~/JavaProjects/Quests/Java01-TheJDK/NoticeMe (master)
+$ git config --global http.proxy http://sia-lb.telekom.de:8080
+
+EMEA1+A200238388@RDDE03X5 MINGW64 ~/JavaProjects/Quests/Java01-TheJDK/NoticeMe (master)
+$ git push --set-upstream https://github.com/damlaSevinc/JavaPlayground.git master
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 24 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (9/9), 1.42 KiB | 1.42 MiB/s, done.
+Total 9 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/damlaSevinc/JavaPlayground/pull/new/master
+remote:
+To https://github.com/damlaSevinc/JavaPlayground.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'https://github.com/damlaSevinc/JavaPlayground.git/master'.
+
+EMEA1+A200238388@RDDE03X5 MINGW64 ~/JavaProjects/Quests/Java01-TheJDK/NoticeMe (master)
+$
